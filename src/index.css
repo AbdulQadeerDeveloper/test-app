@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.contact-banner {
+    background: #1900ffd3;
+    color: white;
+    padding: 51px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-banner {
+        background: #1900ffd3;
+        color: white;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 43px;
+        border-radius: 20px;
+        margin-top: 35px;
+    }
+
+    .inline-display {
+        display: flex;
+        gap: 4px !important;
+        color: black;
+        font-weight: 500;
+        font-size: 13px !important;
+        text-align: center;
+        padding-left: 40px;
+        position: relative;
+        bottom: 45px !important;
+    }
+
+    .inline-display1 {
+        display: flex;
+        gap: 4px !important;
+        color: black;
+        font-weight: 500;
+        font-size: 13px !important;
+        text-align: center;
+        padding-left: 40px;
+        position: relative;
+        padding-bottom: 17px !important;
+
+    }
+
+    .inline-display2 {
+        gap: 20px;
+        display: flex;
+        position: relative;
+        left: 37px;
+        bottom: 10px;
+        padding-bottom: 20px !important;
+    }
+
+    .msq-test-order-list ol {
+        color: black;
+        font-weight: 500;
+        font-size: 17px !important;
+    }
+    #option {
+        display: block !important;
+        gap: 20px ;
+        text-align: center;
+    }
+    .table-wrapper th {
+        border: none !important;
+        padding: 20px 20px 20px 10px;
+        font-size: 19px;
+        font-weight: 700;
+    }
+    .col-md-4 h4 {
+        position: relative !important;
+        top: 21px !important;
+    }
+    span.pen-audio {
+        text-align: right;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        color: green;
+        border: 1px solid #797373;
+        width: 25px;
+        position: absolute;
+        right: 10px !important;
+        border-radius: 100%;
+        height: 25px;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: center;
+        top: 4px !important;
+ 
+    }
+    .contact-banner h1, .contact-para, .field1, input[type="submit"], .signIn-account-term, .form-group label, .inline-display, .msq-test-order-list ol, .preview-btn a, .table-wrapper th, .table-wrapper td {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px !important;
+    }
+    span.icon {
+        font-size: 45px !important;
+    }
+    .signIn-account-term {
+        text-align: center;
+        padding-top: 22px;
+        font-weight: 500;
+        font-size: 15px !important;
+    }
+    .row.signInGoogle {
+        position: relative;
+        bottom: 30px;
+        display: flex !important;
+        gap: 20px !important;
+    }
+    .line1 {
+        height: 2px;
+        width: 60px;
+        background: black;
+        position: relative;
+        bottom: 76px;
+        left: 260px !important;
+    }
+    .line {
+        height: 2px;
+        width: 60px;
+        background: black;
+        position: relative;
+        left: 34px !important;
+        bottom: 30px;
+    }
+    .field1 {
+        width: 50%;
+        position: relative;
+        bottom: 63px;
+        left: 175px !important;
+    }
+    .pen-audio1 {
+        color: green;
+        font-size: 13px;
+        display: none !important;
+    }
+    .table-wrapper .col-md-7 {
+        flex: 0 0 auto;
+        width: 100% !important;
+        margin: auto !important;
+        text-align: center;
+        align-items: center;
+        position: relative !important;
+        left: 17px !important;
+    }
+    .audio-circle {
+        border: 1px solid #a79f9fab;
+        border-radius: 17px;
+        height: 163px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px !important;
+    }
+    .contact-para {
+        font-size: 11px;
+        text-align: center;
+        padding: 13px !important;
+    }
+}
+
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem; /* Larger touch targets */
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto; /* Allows table to scroll on small screens */
+}
+
+.audio-circle img {
+    width: 100%; /* Responsive images */
+    max-width: 150px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    
+    .col-md-6, .col-md-4 {
+        width: 100%; /* Full width */
+    }
+    .text-right {
+        text-align: left; /* Align button for mobile */
+    }
+    .table-wrapper {
+        font-size: 0.8rem; /* Smaller font for tables on mobile */
+    }
+}
+
+
+/* Additional specific styles for form elements */
+.form-control {
+    width: 100%; /* Full width inputs */
+    padding: 8px;
+    margin-top: 10px; /* More spacing */
+}
+
+.contact-banner h1,
+.contact-para,
+.field1,
+input[type="submit"],
+.signIn-account-term,
+.form-group label,
+.inline-display,
+.msq-test-order-list ol,
+.preview-btn a,
+.table-wrapper th,
+.table-wrapper td {
+    font-family: 'Roboto', sans-serif;
+}
+
+span.icon {
+    font-size: 58px !important;
+}
+
+.span.icon img,
+svg {
+
+    vertical-align: middle;
+    border: none;
+
+}
+
+.contact-display-icon {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.contact-para {
+    font-size: 20px;
+    text-align: center;
+    padding: 13px;
+}
+
+.color-ai {
+    color: #1900ffd3;
+}
+
+.Get-heading-start {
+    font-size: 17px;
+    padding-top: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.field1 {
+    width: 50%;
+    position: relative;
+    bottom: 63px;
+    left: 271px;
+}
+
+.row.signInGoogle {
+    position: relative;
+    bottom: 30px;
+}
+
+.line {
+    height: 2px;
+    width: 60px;
+    background: black;
+    position: relative;
+    left: 125px;
+    bottom: 30px;
+}
+
+.line1 {
+    height: 2px;
+    width: 60px;
+    background: black;
+    position: relative;
+    bottom: 76px;
+    left: 358px;
+}
+
+.term-line {
+    position: relative;
+    bottom: 49px;
+}
+
+input[type="submit"] {
+    background: #1900ffd3;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.signIn-account-term {
+    text-align: center;
+    padding-top: 22px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.icon-brand {
+    font-size: 60px;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+span.icon-brand1 {
+    line-height: 108px;
+    font-size: 26px;
+}
+
+.signInGoogle button {
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    padding: 10px;
+    width: 100%;
+    font-weight: 500;
+    background: white;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.inline-display {
+    display: flex;
+    gap: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 40px;
+    position: relative;
+    bottom: 37px;
+}
+
+.inline-display1 {
+    display: flex;
+    gap: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 40px;
+    position: relative;
+    bottom: 15px;
+}
+
+.inline-display2 button {
+    background: #1B9CFC;
+    caption-side: white;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    border: navajowhite;
+    border-radius: 6px;
+}
+
+.inline-display2 {
+    gap: 20px;
+    display: flex;
+    position: relative;
+    left: 37px;
+    bottom: 10px;
+}
+
+.msq-test-order-list ol {
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Get-heading-start p {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.Get-heading-start h1 {
+    font-size: 40px;
+    color: #3742fa;
+    font-weight: 600;
+}
+
+.msq-test-order-list textarea.form-control {
+    border: 1px solid black;
+}
+
+.preview-btn a {
+    background: #00ff22;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 6px 40px;
+    border: none;
+    border-radius: 6px;
+
+
+}
+
+.msq-test-order-list input.form-control {
+    border: 1px solid black;
+}
+
+.Get-heading-start button {
+    background: #B53471;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 7px 30px;
+    font-size: 17px;
+}
+
+.col-md-6.text-right {
+    text-align: end;
+    position: relative;
+    bottom: 54px;
+}
+
+.col-md-6.text-right button {
+    background: #00ff0d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 7px 30px;
+    font-size: 17px;
+}
+
+.table-wrapper th {
+    border: 1px solid #a79f9fab;
+    padding: 20px 20px 20px 10px;
+    font-size: 19px;
+    font-weight: 700;
+
+}
+
+.table-wrapper td {
+    border-bottom: 1px solid #a79f9fab;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 12px;
+}
+
+.table-wrapper {
+    border: 1px solid #a79f9fab;
+    position: relative;
+    bottom: 47px;
+}
+
+span.pen-audio {
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: green;
+    border: 1px solid #797373;
+    width: 25px;
+    position: absolute;
+    right: 7px;
+    border-radius: 100%;
+    height: 25px;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    top: 23px;
+}
+
+.pen-audio1 {
+    color: green;
+    font-size: 13px;
+}
+
+.audio-circle {
+    border: 1px solid #a79f9fab;
+    border-radius: 17px;
+    height: 163px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#option {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+
+}
+
+#option svg {
+    color: rgb(0, 0, 0);
+    vertical-align: middle;
+    border: 2px solid #000000ab;
+    font-size: 19px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.heading svg {
+    color: black !important;
+    border: none;
+    font-size: 19px;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    position: relative;
+    bottom: 4px;
+
+}
+
+.signInGoogle1 svg {
+    color: #000000;
+}
+
+span.audio-vave {
+    left: 78px;
+    position: relative;
+    bottom: 74px;
+    font-size: 10px;
+}
+
+span.audio-vave svg {
+    color: rgb(36 30 30);
+    vertical-align: middle;
+    border: none;
+    width: 38px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: none;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+    margin: 5px;
+}
+
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin: 5px;
+}
+
+::placeholder {
+    font-weight: 500;
+    color: black;
+}
+
+.excellent {
+    margin-left: 90px;
+    margin-top: 20px;
+    position: relative;
+    top: 4px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.poor {
+    margin-top: 20px;
+    position: relative;
+    top: 4px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.RoundDots {
+    padding-bottom: 10px;
+}
+
+.table-wrapper .col-md-7 {
+    flex: 0 0 auto;
+    width: 55.333333%;
+}
+
+.form-control:hover {
+    border: 1px solid black;
+}
+
+.form-control:focus {
+    color: black;
+    /* Keeps the text color the same as the body */
+    background-color: black;
+    /* Keeps the background color the same as the body */
+    border-color: #000000;
+    /* Sets a consistent border color */
+    outline: none;
+    /* Removes the outline */
+    box-shadow: none !important;
+    /* Removes the box shadow */
+}
+
+.header,
+.footer {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+
+}
+
+a.nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.preview-btn {
+    position: relative;
+    top: 74px;
+}
